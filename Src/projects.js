@@ -7,85 +7,37 @@ const projectsList = [
     {
         title: "Progress Steps",
         url: "./Components/ProgressSteps/ProgressSteps.html",
-        img: "./Images/Expanding-cards-preview.jpg"
+        img: "./Images/Progress-steps-preview.jpg"
     },
     {
         title: "Blurry Loading",
         url: "./Components/BlurryLoading/BlurryLoading.html",
-        img: "./Images/Expanding-cards-preview.jpg"
+        img: "./Images/Blurry-loading-preview.jpg"
     },
     {
         title: "Hidden Search Widget",
         url: "./Components/HiddenSearchWidget/HiddenSearchWidget.html",
-        img: "./Images/Expanding-cards-preview.jpg"
+        img: "./Images/Hidden-search-widget-preview.jpg"
     },
     {
         title: "Rotating Navigation",
         url: "./Components/RotatingNavigation/RotatingNavigation.html",
-        img: "./Images/Expanding-cards-preview.jpg"
+        img: "./Images/Rotating-navigation-preview.jpg"
     },
     {
         title: "Split Landing Page",
         url: "./Components/SplitLandingPage/SplitLandingPage.html",
-        img: "./Images/Expanding-cards-preview.jpg"
+        img: "./Images/Split-landing-page-preview.jpg"
     },
     {
         title: "Scroll Animation",
         url: "./Components/ScrollAnimation/ScrollAnimation.html",
-        img: "./Images/Expanding-cards-preview.jpg"
+        img: "./Images/Scroll-animation-preview.jpg"
     },
 
 ]
 
 
-{/* <li>
-          <a
-            class="projects--link"
-            href="./Components/Expanding Cards/ExpandingCards.html"
-            >Expanding Cards</a
-          >
-        </li>
-        <li>
-          <a
-            class="projects--link"
-            href=
-            >s</a
-          >
-        </li>
-        <li>
-          <a
-            class="projects--link"
-            href=
-            ></a
-          >
-        </li>
-        <li>
-          <a
-            class="projects--link"
-            href=
-            ></a
-          >
-        </li>
-        <li>
-          <a
-            class="projects--link"
-            href=
-            ></a
-          >
-        </li>
-        <li>
-          <a
-            class="projects--link"
-            href=
-            ></a
-          >
-        </li>
-        <li>
-          <a
-            class="projects--link"
-            href=
-            ></a
-          >
-        </li> */}
+
 
 export default projectsList
