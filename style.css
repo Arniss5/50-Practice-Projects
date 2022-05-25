@@ -70,3 +70,31 @@ main {
 }
 
 
+
+
+@media (max-width: 1400px) {
+    .projects {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .projects {
+        grid-template-columns: 5fr 5fr;
+}
+
+@media (max-width: 680px) {
+    .projects {
+        font-size: 0.7rem;
+}
+
+@media (max-width: 680px) {
+    .title {
+        font-size: 1.3rem;
+    }
+    .projects {
+        grid-template-columns: 1fr;
+}
+
+
+
