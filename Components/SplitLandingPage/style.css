@@ -9,6 +9,7 @@ body {
     margin: 0;
     height: 100vh;
     overflow: hidden;
+    position: relative;
 }
 
 .container {
@@ -94,6 +95,29 @@ body {
 
 .expanded-other{
     width: 25%;
+}
+
+.back-button {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    width: 100px;
+    height: 50px;
+    background-color: #0b8ab1;
+    border: 2px white solid;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Anek Tamil', sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    z-index: 3;
+}
+
+.back-button:hover {
+    background-color: #087191;
 }
 
 @media only screen and (max-width: 850px) {
