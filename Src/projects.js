@@ -34,6 +34,11 @@ const projectsList = [
         url: "./Components/ScrollAnimation/ScrollAnimation.html",
         img: "./Images/Scroll-animation-preview.jpg"
     },
+    {
+        title: "Form Wave Animation",
+        url: "./Components/FormWaveAnimation/FormWaveAnimation.html",
+        img: "./Images/Form-wave-animation-preview.jpg"
+    },
 
 ]
 
