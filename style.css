@@ -22,7 +22,7 @@ main {
 
 .title {
     font-size: 3rem;
-    color: var(--heading-color);
+    color: rgb(203, 229, 250);
     padding: 1rem;
     margin-bottom: 2rem;
     text-align: center;
