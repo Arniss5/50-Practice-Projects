@@ -47,6 +47,12 @@ const projectsList = [
         img: "./Images/Form-wave-animation-preview.jpg",
         description: "Labels bounce up when input field is filled or in focus."
     },
+    {
+        title: "Sound Board",
+        url: "./Components/SoundBoard/SoundBoard.html",
+        img: "./Images/Sound-board-preview.jpg",
+        description: "Press a button to hear the sound."
+    },
 
 ]
 
