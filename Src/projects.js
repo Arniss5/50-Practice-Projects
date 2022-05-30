@@ -56,7 +56,7 @@ const projectsList = [
     {
         title: "Dad Jokes",
         url: "./Components/DadJokes/DadJokes.html",
-        img: "./Images/Dad-jokes-preview.jpg",
+        img: "./Images/Dad-Jokes-preview.jpg",
         description: "Generate a random joke using API."
     },
 
