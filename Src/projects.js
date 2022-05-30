@@ -53,6 +53,12 @@ const projectsList = [
         img: "./Images/Sound-board-preview.jpg",
         description: "Press a button to hear the sound."
     },
+    {
+        title: "Dad Jokes",
+        url: "./Components/DadJokes/DadJokes.html",
+        img: "./Images/Dad-jokes-preview.jpg",
+        description: "Generate a random joke using API."
+    },
 
 ]
 
