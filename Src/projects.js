@@ -59,6 +59,12 @@ const projectsList = [
         img: "./Images/Dad-jokes-preview.jpg",
         description: "Generate a random joke using API."
     },
+    {
+        title: "Event KeyCodes",
+        url: "./Components/EventKeyCodes/EventKeyCodes.html",
+        img: "./Images/Event-keycodes-preview.jpg",
+        description: "Press a button on the keyboard to see event key, keyCode (deprecated) and code."
+    },
 
 ]
 
