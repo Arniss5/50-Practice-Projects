@@ -65,6 +65,12 @@ const projectsList = [
         img: "./Images/Event-keycodes-preview.jpg",
         description: "Press a button on the keyboard to see event key, keyCode (deprecated) and code."
     },
+    {
+        title: "FAQ",
+        url: "./Components/FAQ/FAQ.html",
+        img: "./Images/Event-keycodes-preview.jpg",
+        description: "Click to expand a row and see the answer."
+    },
 
 ]
 
