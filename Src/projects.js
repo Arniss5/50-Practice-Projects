@@ -68,7 +68,7 @@ const projectsList = [
     {
         title: "FAQ",
         url: "./Components/FAQ/FAQ.html",
-        img: "./Images/Event-keycodes-preview.jpg",
+        img: "./Images/FAQ-preview.jpg",
         description: "Click to expand a row and see the answer."
     },
 

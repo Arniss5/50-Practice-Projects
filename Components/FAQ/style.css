@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.faq-container {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.faq {
+    background-color: transparent;
+    border: 1px #808080 solid;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.faq.active::before,
+.faq.active::after {
+    content: "\f075";
+    font-family: 'Font Awesome 5 Free';
+    color: rgba(118, 206, 66, 0.2);
+    font-size: 120px;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    z-index: 0;
+}
+
+.faq.active::after {
+    color: rgba(94, 150, 255, 0.2);
+    top: -10px;
+    left: -20px;
+    transform: rotateY(180deg);
+}
+
+
+.faq.active {
+    background-color: #fff;
+}
+
+.faq-question {
+    font-size: 22px;
+    margin-right: 50px;
+}
+
+.faq-toggle {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.fa-chevron-down {
+    display: inline;
+}
+
+.fa-chevron-up {
+    display: none;
+}
+
+.faq.active .fa-chevron-down {
+    display: none;
+}
+
+.faq.active .fa-chevron-up {
+    display: inline;
+}
+
+.faq-text {
+    width: 95%;
+    margin-top: 30px;
+    display: none;
+}
+
+.faq.faq.active .faq-text {
+    display: block;
+}
+
+.back-button {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    width: 100px;
+    height: 50px;
+    background-color: #0b8ab1;
+    border: 2px white solid;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Anek Tamil', sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.back-button:hover {
+    background-color: #087191;
+}
