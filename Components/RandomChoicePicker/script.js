@@ -11,9 +11,11 @@ textarea.addEventListener('keyup', e => {
     makeTags(e.target.value)
 
     //Start randomizer
-    if (e.code === "Enter") {
+    if (e.key === "Enter") {
+        setTimeout(() => {
+            e.target.value = ''
+        }, 10)
         highlighPicks()
-        clearInput()
     }
 })
 
@@ -38,9 +40,10 @@ function highlighPicks() {
 
     //every 100ms add 'active' class to a random choice
     const interval = setInterval(() => {
-        const randomIndex = Math.floor(Math.random() * choices.childNodes.length)
-        const randomChoice = choices.childNodes[randomIndex]
+        
+        const randomChoice = pickRandomChoice()
         randomChoice.classList.add('active')
+
         setTimeout(()=> {
             randomChoice.classList.remove('active')
         }, 100)
@@ -49,16 +52,17 @@ function highlighPicks() {
     // pick final choice
     setTimeout(() => {
         clearInterval(interval)
-        
-        const randomIndex = Math.floor(Math.random() * choices.childNodes.length)
-        const randomChoice = choices.childNodes[randomIndex]
-        randomChoice.classList.add('active')
+        setTimeout(() => {
+            const randomChoice = pickRandomChoice()
+            randomChoice.classList.add('active')
+        }, 100)
     }, repeat * 100);
 
 }
 
-
-function clearInput() {
-    textarea.value = ""
+function pickRandomChoice() {
+    const tags = document.querySelectorAll('.choice')
+    return tags[Math.floor(Math.random() * tags.length)]
 }
+
 
