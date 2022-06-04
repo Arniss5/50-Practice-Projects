@@ -6,7 +6,7 @@
 
 body {
     background-image: url('../../Images/watercolor-pattern.webp');
-    color: purple;
+    color: #640064;
     font-family: 'Nunito', sans-serif;
     display: flex;
     flex-direction: column;
@@ -26,8 +26,13 @@ body {
     min-width: 50%;
     min-height: 60%;
 }
+
+.title {
+    font-size: 40px;
+}
+
 .subtitle {
-    font-size: 18px;
+    font-size: 22px;
     color: #640064;
 }
 
@@ -36,6 +41,7 @@ body {
     height: 100px;
     border: 1px solid #640064;
     font-family: inherit;
+    font-size: 20px;
     color: #640064;
     margin: 20px 0 10px 0;
 }
@@ -48,10 +54,10 @@ body {
 }
 
 .choice {
-    background-color: rgb(230, 115, 86);
+    background-color: #e67356;
     color: white;
     display: inline-flex;
-    font-size: 18px;
+    font-size: 20px;
     padding: 0.5rem;
     margin: 5px;
     border-radius: 10px;
