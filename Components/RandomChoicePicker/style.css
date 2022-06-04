@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(/watercolor\ pattern.webp);
+    background-image: url('../../Images/watercolor-pattern.webp');
     color: purple;
     font-family: 'Nunito', sans-serif;
     display: flex;

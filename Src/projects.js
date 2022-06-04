@@ -71,6 +71,12 @@ const projectsList = [
         img: "./Images/FAQ-preview.jpg",
         description: "Click to expand a row and see the answer."
     },
+    {
+        title: "Random Choice Picker",
+        url: "./Components/RandomChoicePicker/RandomChoicePicker.html",
+        img: "./Images/Random-choice-picker-preview.jpg",
+        description: "Can't make your mind? This app will choose for you!"
+    },
 
 ]
 
