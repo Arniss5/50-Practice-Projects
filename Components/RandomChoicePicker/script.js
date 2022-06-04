@@ -49,6 +49,7 @@ function highlighPicks() {
     // pick final choice
     setTimeout(() => {
         clearInterval(interval)
+        
         const randomIndex = Math.floor(Math.random() * choices.childNodes.length)
         const randomChoice = choices.childNodes[randomIndex]
         randomChoice.classList.add('active')
