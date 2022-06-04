@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/watercolor\ pattern.webp);
+    color: purple;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    background-color: white;
+    padding: 3rem 4rem;
+    border: 4px #640064 solid;
+    border-radius: 12px;
+    text-align: center;
+    min-width: 50%;
+    min-height: 60%;
+}
+.subtitle {
+    font-size: 18px;
+    color: #640064;
+}
+
+#textarea {
+    width: 90%;
+    height: 100px;
+    border: 1px solid #640064;
+    font-family: inherit;
+    color: #640064;
+    margin: 20px 0 10px 0;
+}
+
+#textarea:focus {
+    outline: 2px solid #640064;
+}
+.choices {
+    margin: 20px 20px;
+}
+
+.choice {
+    background-color: rgb(230, 115, 86);
+    color: white;
+    display: inline-flex;
+    font-size: 18px;
+    padding: 0.5rem;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.choice.active {
+    background-color: #770077;
+}
+
+.back-button {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    width: 100px;
+    height: 50px;
+    background-color: #0b8ab1;
+    border: 2px white solid;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Anek Tamil', sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.back-button:hover {
+    background-color: #087191;
+}
+
+
