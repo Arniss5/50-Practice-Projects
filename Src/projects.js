@@ -77,6 +77,12 @@ const projectsList = [
         img: "./Images/Random-choice-picker-preview.jpg",
         description: "Can't make your mind? This app will choose for you!"
     },
+    {
+        title: "Animated Navigation",
+        url: "./Components/AnimatedNavigation/AnimatedNavigation.html",
+        img: "./Images/Animated-navigation-preview.jpg",
+        description: "Click on the button to see CSS animation."
+    },
 
 ]
 
